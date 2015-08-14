@@ -1,0 +1,464 @@
+{
+  "text": {
+    "content": "Just follow the pattern, you will be fine.",
+    "size": 20
+  },
+  "map": {
+    "w": 19,
+    "h": 19,
+    "grid": "###########################...##############.......###########.........#########...........#######.............#####...............####.......#.......###S......###.......##S.....#####......##S......###.......###.......#.......####...............#####.............#######...........#########.........###########.......##############GGG###########################"
+  },
+  "spawn": {
+    "x": 2,
+    "y": 10
+  },
+  "enemy": [
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t) * 5 + Math.cos(t * 2 + Math.PI * 0.375) * 2 + 10",
+      "yfunc": "return Math.sin(t) * 5 + Math.sin(t * 2 + Math.PI * 0.375) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t) * 5 + Math.cos(t * 2 + Math.PI * 0.5) * 2 + 10",
+      "yfunc": "return Math.sin(t) * 5 + Math.sin(t * 2 + Math.PI * 0.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t) * 5 + Math.cos(t * 2 + Math.PI * 0.625) * 2 + 10",
+      "yfunc": "return Math.sin(t) * 5 + Math.sin(t * 2 + Math.PI * 0.625) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t) * 5 + Math.cos(t * 2 + Math.PI * 0.75) * 2 + 10",
+      "yfunc": "return Math.sin(t) * 5 + Math.sin(t * 2 + Math.PI * 0.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t) * 5 + Math.cos(t * 2 + Math.PI * 0.875) * 2 + 10",
+      "yfunc": "return Math.sin(t) * 5 + Math.sin(t * 2 + Math.PI * 0.875) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t) * 5 + Math.cos(t * 2 + Math.PI * 1) * 2 + 10",
+      "yfunc": "return Math.sin(t) * 5 + Math.sin(t * 2 + Math.PI * 1) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t) * 5 + Math.cos(t * 2 + Math.PI * 1.125) * 2 + 10",
+      "yfunc": "return Math.sin(t) * 5 + Math.sin(t * 2 + Math.PI * 1.125) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t) * 5 + Math.cos(t * 2 + Math.PI * 1.25) * 2 + 10",
+      "yfunc": "return Math.sin(t) * 5 + Math.sin(t * 2 + Math.PI * 1.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t) * 5 + Math.cos(t * 2 + Math.PI * 1.375) * 2 + 10",
+      "yfunc": "return Math.sin(t) * 5 + Math.sin(t * 2 + Math.PI * 1.375) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t) * 5 + Math.cos(t * 2 + Math.PI * 1.5) * 2 + 10",
+      "yfunc": "return Math.sin(t) * 5 + Math.sin(t * 2 + Math.PI * 1.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t) * 5 + Math.cos(t * 2 + Math.PI * 1.625) * 2 + 10",
+      "yfunc": "return Math.sin(t) * 5 + Math.sin(t * 2 + Math.PI * 1.625) * 2 + 10"
+    },
+
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.25) * 5 + Math.cos(t * 2 + Math.PI * 0.375 + Math.PI * 0.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.25) * 5 + Math.sin(t * 2 + Math.PI * 0.375 + Math.PI * 0.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.25) * 5 + Math.cos(t * 2 + Math.PI * 0.5 + Math.PI * 0.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.25) * 5 + Math.sin(t * 2 + Math.PI * 0.5 + Math.PI * 0.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.25) * 5 + Math.cos(t * 2 + Math.PI * 0.625 + Math.PI * 0.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.25) * 5 + Math.sin(t * 2 + Math.PI * 0.625 + Math.PI * 0.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.25) * 5 + Math.cos(t * 2 + Math.PI * 0.75 + Math.PI * 0.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.25) * 5 + Math.sin(t * 2 + Math.PI * 0.75 + Math.PI * 0.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.25) * 5 + Math.cos(t * 2 + Math.PI * 0.875 + Math.PI * 0.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.25) * 5 + Math.sin(t * 2 + Math.PI * 0.875 + Math.PI * 0.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.25) * 5 + Math.cos(t * 2 + Math.PI * 1 + Math.PI * 0.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.25) * 5 + Math.sin(t * 2 + Math.PI * 1 + Math.PI * 0.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.25) * 5 + Math.cos(t * 2 + Math.PI * 1.125 + Math.PI * 0.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.25) * 5 + Math.sin(t * 2 + Math.PI * 1.125 + Math.PI * 0.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.25) * 5 + Math.cos(t * 2 + Math.PI * 1.25 + Math.PI * 0.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.25) * 5 + Math.sin(t * 2 + Math.PI * 1.25 + Math.PI * 0.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.25) * 5 + Math.cos(t * 2 + Math.PI * 1.375 + Math.PI * 0.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.25) * 5 + Math.sin(t * 2 + Math.PI * 1.375 + Math.PI * 0.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.25) * 5 + Math.cos(t * 2 + Math.PI * 1.5 + Math.PI * 0.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.25) * 5 + Math.sin(t * 2 + Math.PI * 1.5 + Math.PI * 0.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.25) * 5 + Math.cos(t * 2 + Math.PI * 1.625 + Math.PI * 0.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.25) * 5 + Math.sin(t * 2 + Math.PI * 1.625 + Math.PI * 0.25) * 2 + 10"
+    },
+
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.5) * 5 + Math.cos(t * 2 + Math.PI * 0.375 + Math.PI * 0.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.5) * 5 + Math.sin(t * 2 + Math.PI * 0.375 + Math.PI * 0.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.5) * 5 + Math.cos(t * 2 + Math.PI * 0.5 + Math.PI * 0.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.5) * 5 + Math.sin(t * 2 + Math.PI * 0.5 + Math.PI * 0.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.5) * 5 + Math.cos(t * 2 + Math.PI * 0.625 + Math.PI * 0.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.5) * 5 + Math.sin(t * 2 + Math.PI * 0.625 + Math.PI * 0.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.5) * 5 + Math.cos(t * 2 + Math.PI * 0.75 + Math.PI * 0.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.5) * 5 + Math.sin(t * 2 + Math.PI * 0.75 + Math.PI * 0.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.5) * 5 + Math.cos(t * 2 + Math.PI * 0.875 + Math.PI * 0.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.5) * 5 + Math.sin(t * 2 + Math.PI * 0.875 + Math.PI * 0.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.5) * 5 + Math.cos(t * 2 + Math.PI * 1 + Math.PI * 0.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.5) * 5 + Math.sin(t * 2 + Math.PI * 1 + Math.PI * 0.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.5) * 5 + Math.cos(t * 2 + Math.PI * 1.125 + Math.PI * 0.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.5) * 5 + Math.sin(t * 2 + Math.PI * 1.125 + Math.PI * 0.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.5) * 5 + Math.cos(t * 2 + Math.PI * 1.25 + Math.PI * 0.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.5) * 5 + Math.sin(t * 2 + Math.PI * 1.25 + Math.PI * 0.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.5) * 5 + Math.cos(t * 2 + Math.PI * 1.375 + Math.PI * 0.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.5) * 5 + Math.sin(t * 2 + Math.PI * 1.375 + Math.PI * 0.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.5) * 5 + Math.cos(t * 2 + Math.PI * 1.5 + Math.PI * 0.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.5) * 5 + Math.sin(t * 2 + Math.PI * 1.5 + Math.PI * 0.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.5) * 5 + Math.cos(t * 2 + Math.PI * 1.625 + Math.PI * 0.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.5) * 5 + Math.sin(t * 2 + Math.PI * 1.625 + Math.PI * 0.5) * 2 + 10"
+    },
+
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.75) * 5 + Math.cos(t * 2 + Math.PI * 0.375 + Math.PI * 0.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.75) * 5 + Math.sin(t * 2 + Math.PI * 0.375 + Math.PI * 0.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.75) * 5 + Math.cos(t * 2 + Math.PI * 0.5 + Math.PI * 0.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.75) * 5 + Math.sin(t * 2 + Math.PI * 0.5 + Math.PI * 0.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.75) * 5 + Math.cos(t * 2 + Math.PI * 0.625 + Math.PI * 0.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.75) * 5 + Math.sin(t * 2 + Math.PI * 0.625 + Math.PI * 0.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.75) * 5 + Math.cos(t * 2 + Math.PI * 0.75 + Math.PI * 0.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.75) * 5 + Math.sin(t * 2 + Math.PI * 0.75 + Math.PI * 0.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.75) * 5 + Math.cos(t * 2 + Math.PI * 0.875 + Math.PI * 0.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.75) * 5 + Math.sin(t * 2 + Math.PI * 0.875 + Math.PI * 0.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.75) * 5 + Math.cos(t * 2 + Math.PI * 1 + Math.PI * 0.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.75) * 5 + Math.sin(t * 2 + Math.PI * 1 + Math.PI * 0.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.75) * 5 + Math.cos(t * 2 + Math.PI * 1.125 + Math.PI * 0.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.75) * 5 + Math.sin(t * 2 + Math.PI * 1.125 + Math.PI * 0.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.75) * 5 + Math.cos(t * 2 + Math.PI * 1.25 + Math.PI * 0.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.75) * 5 + Math.sin(t * 2 + Math.PI * 1.25 + Math.PI * 0.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.75) * 5 + Math.cos(t * 2 + Math.PI * 1.375 + Math.PI * 0.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.75) * 5 + Math.sin(t * 2 + Math.PI * 1.375 + Math.PI * 0.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.75) * 5 + Math.cos(t * 2 + Math.PI * 1.5 + Math.PI * 0.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.75) * 5 + Math.sin(t * 2 + Math.PI * 1.5 + Math.PI * 0.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 0.75) * 5 + Math.cos(t * 2 + Math.PI * 1.625 + Math.PI * 0.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 0.75) * 5 + Math.sin(t * 2 + Math.PI * 1.625 + Math.PI * 0.75) * 2 + 10"
+    },
+
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1) * 5 + Math.cos(t * 2 + Math.PI * 0.375 + Math.PI * 1) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1) * 5 + Math.sin(t * 2 + Math.PI * 0.375 + Math.PI * 1) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1) * 5 + Math.cos(t * 2 + Math.PI * 0.5 + Math.PI * 1) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1) * 5 + Math.sin(t * 2 + Math.PI * 0.5 + Math.PI * 1) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1) * 5 + Math.cos(t * 2 + Math.PI * 0.625 + Math.PI * 1) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1) * 5 + Math.sin(t * 2 + Math.PI * 0.625 + Math.PI * 1) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1) * 5 + Math.cos(t * 2 + Math.PI * 0.75 + Math.PI * 1) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1) * 5 + Math.sin(t * 2 + Math.PI * 0.75 + Math.PI * 1) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1) * 5 + Math.cos(t * 2 + Math.PI * 0.875 + Math.PI * 1) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1) * 5 + Math.sin(t * 2 + Math.PI * 0.875 + Math.PI * 1) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1) * 5 + Math.cos(t * 2 + Math.PI * 1 + Math.PI * 1) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1) * 5 + Math.sin(t * 2 + Math.PI * 1 + Math.PI * 1) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1) * 5 + Math.cos(t * 2 + Math.PI * 1.125 + Math.PI * 1) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1) * 5 + Math.sin(t * 2 + Math.PI * 1.125 + Math.PI * 1) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1) * 5 + Math.cos(t * 2 + Math.PI * 1.25 + Math.PI * 1) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1) * 5 + Math.sin(t * 2 + Math.PI * 1.25 + Math.PI * 1) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1) * 5 + Math.cos(t * 2 + Math.PI * 1.375 + Math.PI * 1) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1) * 5 + Math.sin(t * 2 + Math.PI * 1.375 + Math.PI * 1) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1) * 5 + Math.cos(t * 2 + Math.PI * 1.5 + Math.PI * 1) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1) * 5 + Math.sin(t * 2 + Math.PI * 1.5 + Math.PI * 1) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1) * 5 + Math.cos(t * 2 + Math.PI * 1.625 + Math.PI * 1) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1) * 5 + Math.sin(t * 2 + Math.PI * 1.625 + Math.PI * 1) * 2 + 10"
+    },
+
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.25) * 5 + Math.cos(t * 2 + Math.PI * 0.375 + Math.PI * 1.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.25) * 5 + Math.sin(t * 2 + Math.PI * 0.375 + Math.PI * 1.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.25) * 5 + Math.cos(t * 2 + Math.PI * 0.5 + Math.PI * 1.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.25) * 5 + Math.sin(t * 2 + Math.PI * 0.5 + Math.PI * 1.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.25) * 5 + Math.cos(t * 2 + Math.PI * 0.625 + Math.PI * 1.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.25) * 5 + Math.sin(t * 2 + Math.PI * 0.625 + Math.PI * 1.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.25) * 5 + Math.cos(t * 2 + Math.PI * 0.75 + Math.PI * 1.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.25) * 5 + Math.sin(t * 2 + Math.PI * 0.75 + Math.PI * 1.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.25) * 5 + Math.cos(t * 2 + Math.PI * 0.875 + Math.PI * 1.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.25) * 5 + Math.sin(t * 2 + Math.PI * 0.875 + Math.PI * 1.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.25) * 5 + Math.cos(t * 2 + Math.PI * 1 + Math.PI * 1.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.25) * 5 + Math.sin(t * 2 + Math.PI * 1 + Math.PI * 1.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.25) * 5 + Math.cos(t * 2 + Math.PI * 1.125 + Math.PI * 1.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.25) * 5 + Math.sin(t * 2 + Math.PI * 1.125 + Math.PI * 1.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.25) * 5 + Math.cos(t * 2 + Math.PI * 1.25 + Math.PI * 1.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.25) * 5 + Math.sin(t * 2 + Math.PI * 1.25 + Math.PI * 1.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.25) * 5 + Math.cos(t * 2 + Math.PI * 1.375 + Math.PI * 1.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.25) * 5 + Math.sin(t * 2 + Math.PI * 1.375 + Math.PI * 1.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.25) * 5 + Math.cos(t * 2 + Math.PI * 1.5 + Math.PI * 1.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.25) * 5 + Math.sin(t * 2 + Math.PI * 1.5 + Math.PI * 1.25) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.25) * 5 + Math.cos(t * 2 + Math.PI * 1.625 + Math.PI * 1.25) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.25) * 5 + Math.sin(t * 2 + Math.PI * 1.625 + Math.PI * 1.25) * 2 + 10"
+    },
+
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.5) * 5 + Math.cos(t * 2 + Math.PI * 0.375 + Math.PI * 1.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.5) * 5 + Math.sin(t * 2 + Math.PI * 0.375 + Math.PI * 1.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.5) * 5 + Math.cos(t * 2 + Math.PI * 0.5 + Math.PI * 1.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.5) * 5 + Math.sin(t * 2 + Math.PI * 0.5 + Math.PI * 1.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.5) * 5 + Math.cos(t * 2 + Math.PI * 0.625 + Math.PI * 1.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.5) * 5 + Math.sin(t * 2 + Math.PI * 0.625 + Math.PI * 1.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.5) * 5 + Math.cos(t * 2 + Math.PI * 0.75 + Math.PI * 1.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.5) * 5 + Math.sin(t * 2 + Math.PI * 0.75 + Math.PI * 1.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.5) * 5 + Math.cos(t * 2 + Math.PI * 0.875 + Math.PI * 1.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.5) * 5 + Math.sin(t * 2 + Math.PI * 0.875 + Math.PI * 1.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.5) * 5 + Math.cos(t * 2 + Math.PI * 1 + Math.PI * 1.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.5) * 5 + Math.sin(t * 2 + Math.PI * 1 + Math.PI * 1.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.5) * 5 + Math.cos(t * 2 + Math.PI * 1.125 + Math.PI * 1.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.5) * 5 + Math.sin(t * 2 + Math.PI * 1.125 + Math.PI * 1.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.5) * 5 + Math.cos(t * 2 + Math.PI * 1.25 + Math.PI * 1.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.5) * 5 + Math.sin(t * 2 + Math.PI * 1.25 + Math.PI * 1.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.5) * 5 + Math.cos(t * 2 + Math.PI * 1.375 + Math.PI * 1.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.5) * 5 + Math.sin(t * 2 + Math.PI * 1.375 + Math.PI * 1.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.5) * 5 + Math.cos(t * 2 + Math.PI * 1.5 + Math.PI * 1.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.5) * 5 + Math.sin(t * 2 + Math.PI * 1.5 + Math.PI * 1.5) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.5) * 5 + Math.cos(t * 2 + Math.PI * 1.625 + Math.PI * 1.5) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.5) * 5 + Math.sin(t * 2 + Math.PI * 1.625 + Math.PI * 1.5) * 2 + 10"
+    },
+
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.75) * 5 + Math.cos(t * 2 + Math.PI * 0.375 + Math.PI * 1.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.75) * 5 + Math.sin(t * 2 + Math.PI * 0.375 + Math.PI * 1.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.75) * 5 + Math.cos(t * 2 + Math.PI * 0.5 + Math.PI * 1.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.75) * 5 + Math.sin(t * 2 + Math.PI * 0.5 + Math.PI * 1.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.75) * 5 + Math.cos(t * 2 + Math.PI * 0.625 + Math.PI * 1.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.75) * 5 + Math.sin(t * 2 + Math.PI * 0.625 + Math.PI * 1.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.75) * 5 + Math.cos(t * 2 + Math.PI * 0.75 + Math.PI * 1.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.75) * 5 + Math.sin(t * 2 + Math.PI * 0.75 + Math.PI * 1.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.75) * 5 + Math.cos(t * 2 + Math.PI * 0.875 + Math.PI * 1.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.75) * 5 + Math.sin(t * 2 + Math.PI * 0.875 + Math.PI * 1.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.75) * 5 + Math.cos(t * 2 + Math.PI * 1 + Math.PI * 1.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.75) * 5 + Math.sin(t * 2 + Math.PI * 1 + Math.PI * 1.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.75) * 5 + Math.cos(t * 2 + Math.PI * 1.125 + Math.PI * 1.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.75) * 5 + Math.sin(t * 2 + Math.PI * 1.125 + Math.PI * 1.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.75) * 5 + Math.cos(t * 2 + Math.PI * 1.25 + Math.PI * 1.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.75) * 5 + Math.sin(t * 2 + Math.PI * 1.25 + Math.PI * 1.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.75) * 5 + Math.cos(t * 2 + Math.PI * 1.375 + Math.PI * 1.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.75) * 5 + Math.sin(t * 2 + Math.PI * 1.375 + Math.PI * 1.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.75) * 5 + Math.cos(t * 2 + Math.PI * 1.5 + Math.PI * 1.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.75) * 5 + Math.sin(t * 2 + Math.PI * 1.5 + Math.PI * 1.75) * 2 + 10"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t + Math.PI * 1.75) * 5 + Math.cos(t * 2 + Math.PI * 1.625 + Math.PI * 1.75) * 2 + 10",
+      "yfunc": "return Math.sin(t + Math.PI * 1.75) * 5 + Math.sin(t * 2 + Math.PI * 1.625 + Math.PI * 1.75) * 2 + 10"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "text": {
+    "content": "Timing is important.",
+    "size": 20
+  },
+  "map": {
+    "w": 9,
+    "h": 9,
+    "grid": "##########G......########.##.......##.########.......########.##S......##########"
+  },
+  "spawn": {
+    "x": 2,
+    "y": 8
+  },
+  "enemy": [
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t * 2) + 5",
+      "yfunc": "return Math.sin(t * 2) + 5"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t * 2 + Math.PI) + 5",
+      "yfunc": "return Math.sin(t * 2 + Math.PI) + 5"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t * 2) * 2 + 5",
+      "yfunc": "return Math.sin(t * 2) * 2 + 5"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t * 2 + Math.PI) * 2 + 5",
+      "yfunc": "return Math.sin(t * 2 + Math.PI) * 2 + 5"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t * 2) * 3 + 5",
+      "yfunc": "return Math.sin(t * 2) * 3 + 5"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(t * 2 + Math.PI) * 3 + 5",
+      "yfunc": "return Math.sin(t * 2 + Math.PI) * 3 + 5"
+    }
+  ]
+}

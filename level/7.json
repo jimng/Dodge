@@ -1,0 +1,117 @@
+{
+  "text": {
+    "content": "Find for the equilibrium.",
+    "size": 20
+  },
+  "map": {
+    "w": 24,
+    "h": 15,
+    "grid": "##########################....................####....................####....................####....................####....................####....................###S....................G###....................####....................####....................####....................####....................####....................##########################"
+  },
+  "spawn": {
+    "x": 2,
+    "y": 8
+  },
+  "enemy": [
+    {
+      "type": "func",
+      "xfunc": "return 3",
+      "yfunc": "return Math.sin(t * 2) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 4",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 0.2) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 5",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 0.4) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 6",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 0.6) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 7",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 0.8) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 8",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 1.0) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 9",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 1.2) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 10",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 1.4) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 11",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 1.6) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 12",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 1.8) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 13",
+      "yfunc": "return Math.sin(t * 2) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 14",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 0.2) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 15",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 0.4) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 16",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 0.6) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 17",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 0.8) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 18",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 1.0) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 19",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 1.2) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 20",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 1.4) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 21",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 1.6) * 6 + 8"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 22",
+      "yfunc": "return Math.sin(t * 2 + Math.PI * 1.8) * 6 + 8"
+    }
+  ]
+}

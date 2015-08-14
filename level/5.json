@@ -1,0 +1,378 @@
+{
+  "text": {
+    "content": "Trap!",
+    "size": 20
+  },
+  "map": {
+    "w": 24,
+    "h": 14,
+    "grid": "#########################SS....................##SS....................##SS....................####....................####....................#####################III#####################III####....................####....................##GG....................##GG....................##GG....................#########################"
+  },
+  "spawn": {
+    "x": 2,
+    "y": 3
+  },
+  "enemy": [
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 6",
+      "yfunc": "return 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 11",
+      "yfunc": "return 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 16",
+      "yfunc": "return 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 21",
+      "yfunc": "return 4"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 6",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 6",
+      "yfunc": "return 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 11",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 11",
+      "yfunc": "return 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 16",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 16",
+      "yfunc": "return 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI / 2) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 21",
+      "yfunc": "return Math.sin((Math.floor(t / Math.PI / 2) % 2 ? -1 : 1) * t * 3 + Math.PI * 1.5) * 2 + 11"
+    },
+    {
+      "type": "func",
+      "xfunc": "return 21",
+      "yfunc": "return 11"
+    }
+
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "text": {
+    "content": "Once you get it, it is trivial.",
+    "size": 20
+  },
+  "map": {
+    "w": 17,
+    "h": 19,
+    "grid": "######################.......#########.........#######...........#####.............###...............##...............##...............##...............##...............##...............##...............##...............##...............##...............##...............##GG###########SS##GG###########SS##################"
+  },
+  "spawn": {
+    "x": 16,
+    "y": 18
+  },
+  "enemy": [
+    {
+      "type": "func",
+      "xfunc": "return 9",
+      "yfunc": "return 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5) + 9",
+      "yfunc": "return Math.sin(-t * 1.5) + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI / 2) + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI / 2) + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI) + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI) + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI * 1.5) + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI * 1.5) + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5) * 2 + 9",
+      "yfunc": "return Math.sin(-t * 1.5) * 2 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI / 2) * 2 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI / 2) * 2 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI) * 2 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI) * 2 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI * 1.5) * 2 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI * 1.5) * 2 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5) * 3 + 9",
+      "yfunc": "return Math.sin(-t * 1.5) * 3 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI / 2) * 3 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI / 2) * 3 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI) * 3 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI) * 3 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI * 1.5) * 3 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI * 1.5) * 3 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5) * 4 + 9",
+      "yfunc": "return Math.sin(-t * 1.5) * 4 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI / 2) * 4 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI / 2) * 4 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI) * 4 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI) * 4 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI * 1.5) * 4 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI * 1.5) * 4 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5) * 5 + 9",
+      "yfunc": "return Math.sin(-t * 1.5) * 5 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI / 2) * 5 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI / 2) * 5 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI) * 5 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI) * 5 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI * 1.5) * 5 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI * 1.5) * 5 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5) * 6 + 9",
+      "yfunc": "return Math.sin(-t * 1.5) * 6 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI / 2) * 6 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI / 2) * 6 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI) * 6 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI) * 6 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI * 1.5) * 6 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI * 1.5) * 6 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5) * 7 + 9",
+      "yfunc": "return Math.sin(-t * 1.5) * 7 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI / 2) * 7 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI / 2) * 7 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI) * 7 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI) * 7 + 9"
+    },
+    {
+      "type": "func",
+      "xfunc": "return Math.cos(-t * 1.5 + Math.PI * 1.5) * 7 + 9",
+      "yfunc": "return Math.sin(-t * 1.5 + Math.PI * 1.5) * 7 + 9"
+    }
+  ]
+}
